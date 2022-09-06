@@ -21,8 +21,9 @@
     'Welcome back, Andrew'
 */
 
-//CODE HERE
+const greetUser = (username) => `Welcome back, ${username}`
 
+console.log(greetUser('Andrew'))
 
 
 
@@ -49,7 +50,14 @@
 
 const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 
-//CODE HERE
+const canWeDeliver = (num) => {
+    if (deliveryAreaZipCodes.includes(num) === true) {
+    return "You're in our delivery zone"
+} else {
+    return "Sorry, we can't deliver to that address"
+}
+}
+console.log(canWeDeliver())
 
 
 
