@@ -30,7 +30,15 @@
     'kids'
 */
 
-//CODE HERE
+const pizza = {
+    name: "gf pepperoni",
+    price: 6,
+    category: "meat",
+    popularity: 8,
+    rating: 4,
+    tags: ["gluten-free", "kids"]
+
+}
 
 
 
@@ -42,7 +50,7 @@
     Use dot notation to access the value.
 */
 
-//CODE HERE
+console.log(pizza.popularity)
 
 
 /*
@@ -51,8 +59,8 @@
     Use a combination of dots and brackets to
     get the value.
 */
-
-//CODE HERE
+NEED TO DO
+console.log())
 
 
 /*
@@ -62,7 +70,8 @@
     Print the value of your new price variable.
 */
 
-//CODE HERE
+let {price} = pizza
+console.log(`${price}`)
 
 
 /*
@@ -72,7 +81,8 @@
     Print the value of your category variable. 
 */
 
-//CODE HERE
+let {category} = pizza
+console.log(`${category}`)
 
 
 //////////////////PROBLEM 3////////////////////
@@ -87,7 +97,57 @@
     data in some functions that you'll write.
 */
 
-//CODE HERE
+let foodArr = [
+    {
+        name: "gf pepperoni",
+        price: 6,
+        category: "meat",
+        popularity: 8,
+        rating: 4,
+        tags: ["gluten-free", "kids"]
+    
+    },
+
+    {
+        name: "gf cheese",
+        price: 5,
+        category: "vegetarian",
+        popularity: 9,
+        rating: 5,
+        tags: ["gf", "veggie"]
+    
+    },
+
+    {
+        name: "caesar salad",
+        price: 4,
+        category: "meat",
+        popularity: 10,
+        rating: 6,
+        tags: ["not gluten-free", "salad"]
+    
+    },
+
+    {
+        name: "greek salad",
+        price: 3,
+        category: "vegetarian",
+        popularity: 8,
+        rating: 7,
+        tags: ["olives", "mediterranean"]
+    
+    },
+
+    {
+        name: "pasta salad",
+        price: 2,
+        category: "vegetarian",
+        popularity: 7,
+        rating: 8,
+        tags: ["penne", "feta"]
+    
+    }
+]
 
 
 
@@ -103,7 +163,10 @@
     your food objects has.
 */
 
-//CODE HERE
+const vegetarianPizza = () => {
+    
+
+}
 
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
