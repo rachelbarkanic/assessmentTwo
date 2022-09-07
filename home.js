@@ -115,6 +115,8 @@ const deals = [
     to replace the 15 with a 10.
 */
 
+destructure?
+
 // deals.splice(0, 1, {
 //     title: title,
 //     desc: 'Applied to your entire order when you spend $30 or more'
