@@ -78,8 +78,9 @@ console.log(canWeDeliver())
     Name your new function `canWeDeliverTwo`.
 */
 
-// CODE HERE
+need to do!
 
+const canWeDeliverTwo = 
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -114,7 +115,12 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-//CODE HERE
+// deals.splice(0, 1, {
+//     title: title,
+//     desc: 'Applied to your entire order when you spend $30 or more'
+// })
+// console.log(deals)
+
 
 
 
