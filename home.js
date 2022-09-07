@@ -78,9 +78,18 @@ console.log(canWeDeliver())
     Name your new function `canWeDeliverTwo`.
 */
 
-need to do!
 
-const canWeDeliverTwo = 
+
+const canWeDeliverTwo = (num) => {
+    for ( let i = 0; i < deliveryAreaZipCodes.length; i++) {
+        if (deliveryAreaZipCodes[i] === num) {
+            return "You're in our delivery zone"
+        } else {
+            return "Sorry, we can't deliver to that address"
+        }
+    }
+}
+console.log(canWeDeliverTwo())
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -114,8 +123,6 @@ const deals = [
     to be itself, but use the `replace` method
     to replace the 15 with a 10.
 */
-
-destructure?
 
 // deals.splice(0, 1, {
 //     title: title,
