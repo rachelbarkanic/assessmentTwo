@@ -59,8 +59,8 @@ console.log(pizza.popularity)
     Use a combination of dots and brackets to
     get the value.
 */
-NEED TO DO
-console.log())
+
+console.log(pizza.tags[1])
 
 
 /*
@@ -163,10 +163,7 @@ let foodArr = [
     your food objects has.
 */
 
-const vegetarianPizza = () => {
-    
-
-}
+//CODE HERE
 
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
