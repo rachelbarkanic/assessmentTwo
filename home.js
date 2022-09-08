@@ -124,11 +124,11 @@ const deals = [
     to replace the 15 with a 10.
 */
 
-// deals.splice(0, 1, {
-//     title: title,
-//     desc: 'Applied to your entire order when you spend $30 or more'
-// })
-// console.log(deals)
+deals.forEach(element => {
+    if (element.title === '15% Off!') {
+        element.title = element.title.replace('15% Off!', '10% Off!')
+    }
+})
 
 
 
@@ -146,4 +146,10 @@ const deals = [
     to be displaying wrong on the live site.
 */
 
-//CODE HERE
+deals.forEach(element => {
+    if (element.desc === '   This deal lasts until the end of March! ') {
+        element.desc = element.desc.replace('March', 'April')
+    }
+})
+
+console.log(deals)
