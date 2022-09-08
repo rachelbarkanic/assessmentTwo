@@ -167,8 +167,6 @@ let foodArr = [
 
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
-
-
 //////////////////PROBLEM 5////////////////////
 /* 
     Now let's write a function that's a little
