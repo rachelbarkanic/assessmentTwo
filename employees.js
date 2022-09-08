@@ -62,9 +62,8 @@ empOne.getSchedule()
     dot or bracket notation.
 */
 
-let empTwo = {...empOne}
+let empTwo = {...empOne, name: 'Nick'}
 console.log(empTwo)
-
 
 
 //////////////////PROBLEM 2////////////////////
