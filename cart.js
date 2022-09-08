@@ -33,9 +33,9 @@ const cart = [
     }
 ]
 
-//CODE HERE
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+const summedPrice = cart.reduce((accu, curr) => accu + curr)
+console.log(summedPrice)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -78,7 +78,11 @@ const cart = [
 */
 
 /*
-    TEXT ANSWER HERE
+
+My sandwich object will have the following properties: meat, cheese, toppings, bread, price
+Meat, cheese,and bread will all be strings because they will all have a one word value.
+Toppings will be an array of strings because multiple toppings are allowed.
+Price will be a number because prices are typically numbers.
 
 */
 
@@ -87,4 +91,9 @@ const cart = [
     guidelines.
 */
 
-//CODE HERE
+const sandwich = {
+    meat: 'turkey',
+    cheese: 'swiss',
+    toppings: ['tomato', 'lettuce', 'pickles', 'mustard'],
+    price: 10.99
+}
