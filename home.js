@@ -148,7 +148,7 @@ deals.forEach(element => {
 
 deals.forEach(element => {
     if (element.desc === '   This deal lasts until the end of March! ') {
-        element.desc = element.desc.replace('March', 'April')
+        element.desc = element.desc.replace('March', 'April').trim()
     }
 })
 
