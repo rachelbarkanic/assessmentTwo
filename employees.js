@@ -19,8 +19,15 @@
     stored on the object.
 */
 
-//CODE HERE
-
+class Employee {
+    constructor(name, shifts){
+        this.name = name;
+        this.shifts = shifts;
+    }
+getSchedule() {
+    return console.log(this.name, 'works on', this.shifts)
+}
+}
 
 
 /*
@@ -32,15 +39,15 @@
     name: Jess
     shifts: weekday mornings, weekday afternoons
 */
-
-//CODE HERE
+let empOne = new Employee('Jess', 'weekdays mornings, weekday afternoons')
+console.log(empOne)
 
 /*
     Call the `getSchedule` method on the
     `empOne` object.
 */
 
-//CODE HERE
+empOne(getSchedule)
 
 
 /*

@@ -35,7 +35,7 @@ class Ticket {
         this.orderTime = orderTime;
         this.customerID = customerID;
     }
-
+}
   
 
 
@@ -51,7 +51,8 @@ class Ticket {
     customer: 575
 */
 
-//CODE HERE
+let firstTicket = new Ticket(['pizza', 'bread', 'soda'], '7:03 pm', 575)
+console.log(firstTicket)
 
 
 /*
