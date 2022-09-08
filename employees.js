@@ -47,7 +47,7 @@ console.log(empOne)
     `empOne` object.
 */
 
-empOne(getSchedule)
+empOne.getSchedule()
 
 
 /*
@@ -62,7 +62,8 @@ empOne(getSchedule)
     dot or bracket notation.
 */
 
-//CODE HERE
+let empTwo = {...empOne}
+console.log(empTwo)
 
 
 
