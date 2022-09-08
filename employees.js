@@ -89,8 +89,22 @@ console.log(empTwo)
     the employees array. 
 */
 
-//CODE HERE
+class Manager extends Employee {
+    constructor(name, shifts, employees) {
+        super(name, shifts)
+    
+    this.employees = [employees];
+}
 
+
+getEmployees() {
+    return console.log(this.name, 'manages', this.employees)
+}
+
+addEmployee(emp) {
+  return this.employees.push(emp)
+}
+}
 
 
 /*
@@ -103,8 +117,8 @@ console.log(empTwo)
     shifts: weekday mornings, weekday afternoons
     employees: Cece and Schmidt
 */
-
-//CODE HERE
+let manager = new Manager('Winston', 'weekday mornings, weekday afternoons', `Schmidt`)
+console.log(manager)
 
 
 /*
@@ -112,7 +126,7 @@ console.log(empTwo)
     `manager` object.  
 */
 
-//CODE HERE
+manager.getEmployees()
 
 /*
     Call the `addEmployee` method on the 
@@ -120,7 +134,7 @@ console.log(empTwo)
     'Coach' or whatever name you'd like.
 */
 
-//CODE HERE 
+manager.addEmployee('Coach')
 
 /*
     Call the `getEmployees` method on the
@@ -128,4 +142,4 @@ console.log(empTwo)
     that an employee was added.
 */
 
-//CODE HERE
+manager.getEmployees()
