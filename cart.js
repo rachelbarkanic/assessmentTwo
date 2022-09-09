@@ -85,10 +85,10 @@ console.log(calcFinalPrice(cartTotal, .06, 5))
 
 /*
 
-My sandwich object will have the following properties: meat, cheese, toppings, bread, price
-Meat, cheese,and bread will all be strings because they will all have a one word value.
-Toppings will be an array of strings because multiple toppings are allowed.
-Price will be a number because prices are typically numbers.
+My customer object will have the following properties: name, gender, attributes, age 
+Name and gender will be strings because they will all have a one word value.
+Attributes will be an array of strings because multiple attributes of people exist.
+Age will be a number because that is how age is typically described.
 
 */
 
@@ -97,9 +97,11 @@ Price will be a number because prices are typically numbers.
     guidelines.
 */
 
-const sandwich = {
-    meat: 'turkey',
-    cheese: 'swiss',
-    toppings: ['tomato', 'lettuce', 'pickles', 'mustard'],
-    price: 10.99
+const customer = {
+    name: 'Emmett',
+    gender: 'male',
+    attributes: ['cute', 'brown hair', 'brown eyes', 'chunky'],
+    age: 2
 }
+
+console.log(customer)
