@@ -163,9 +163,12 @@ let foodArr = [
     your food objects has.
 */
 
-//CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+
+const filteredFood = foodArr.filter((foodItem) => {
+    return foodItem.tags.includes("olives")
+})
+
 
 //////////////////PROBLEM 5////////////////////
 /* 
@@ -206,7 +209,20 @@ let foodArr = [
     Return the filtered array from the entire function
 */
 
-//CODE HERE
+const filterByProperty = (property, number, type) => {
+let filteredArray = foodArr.filter((foodItem) => {
+    if (type === 'above') {
+        return foodItem[property] > number
+    } else { 
+        return foodItem[property] < number
+    }
+}) 
+
+return filteredArray
+
+}
+
+
 
 
 /*
@@ -216,4 +232,5 @@ let foodArr = [
     You'll have to console.log to see the filtered array
 */
 
-//CODE HERE
+let filteredArray = filterByProperty('price', 8.99, 'above')
+console.log(filteredArray)
