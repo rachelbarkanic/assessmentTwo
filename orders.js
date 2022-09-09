@@ -38,10 +38,10 @@ class Ticket {
     }
 
 updateStatus(newStatus){
-    console.log("The order for customer", this.customerID, "is now", this.status)
-}
+    return this.status = newStatus}
 }
 
+console.log('The order for customer', this.customerID, "is now", this.status);
   
 
 
