@@ -122,7 +122,7 @@ console.log(manager)
 
 
 /*
-    Call the `getEmployees` method on the
+    Call the `getEmployees` method on the 
     `manager` object.  
 */
 
@@ -143,3 +143,5 @@ manager.addEmployee('Coach')
 */
 
 manager.getEmployees()
+
+///
