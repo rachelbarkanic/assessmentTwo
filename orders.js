@@ -69,3 +69,4 @@ console.log(firstTicket)
 
 firstTicket.updateStatus('cooking')
 console.log(firstTicket)
+
